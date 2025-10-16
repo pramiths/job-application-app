@@ -61,8 +61,8 @@ button.primary {
 }
 
 button.primary:hover:not(:disabled) {
-  background: #5b01a5;;
-  transform: translateY(-2px);
+  background: #2e0154;
+  transition: ease-in 0.2s;
 }
 
 button.secondary {
@@ -123,6 +123,17 @@ label {
   font-weight: 500;
 }
 
+h2 {
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.step-description {
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
 /* Responsive styles for diffrent screens */
 @media (max-width: 768px) {
   .app-container {
@@ -142,6 +153,10 @@ label {
   
   .app-container h1 {
     font-size: 1.5rem;
+  }
+
+  .input {
+    width: 60%;
   }
 }
 </style>

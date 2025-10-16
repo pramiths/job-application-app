@@ -56,7 +56,7 @@
             class="btn primary"
             @click="handleNext"
         >
-            Save & Next
+            Next Step
         </button>
     </div>
 </template>
@@ -161,17 +161,6 @@ watch(() => props.modelValue.personal, (newVal, oldVal) => {
 <style scoped>
 .step-container {
   padding: 2rem 0;
-}
-
-h2 {
-  color: #1e293b;
-  margin-bottom: 0.5rem;
-  font-size: 1.75rem;
-}
-
-.step-description {
-  color: #64748b;
-  margin-bottom: 2rem;
 }
 
 .required {
